@@ -35,7 +35,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Education\
 ✔️ Work Experience\
 ✔️ Open Source Projects Connected with GitHub\
-✔️ Big Projects\
+✔️ Projects\
 ✔️ Achievements And Certifications 🏆\
 ✔️ Blogs\
 ✔️ Talks\
