@@ -201,7 +201,7 @@ const bigProjects = {
       projectDesc: "we have created an SDN topology in which the attacking host try to spoof the MAC address  of victim and the switch using a python program. In order to prevent this we have wrote p4 program which work on switch level. ",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "project",
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
@@ -232,51 +232,111 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Analytics for Beginners",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Google Analytics for Beginners shows new users how to create an account, implement tracking code, and set up data filters. You'll learn how to navigate the Google Analytics interface and reports, and set up dashboards and shortcuts. The course will also demonstrate how to analyze basic Audience, Acquisition, and Behavior reports, and set up goals and campaign tracking.",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "Google Analytics for Beginners",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/14rq9Ra9qC_Ulc_FvFOQr7LfJ4jtq0NOb/view?usp=share_link"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Fundamentals of digital marketing",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "There are 26 modules to explore, all created by Google trainers, packed full of practical exercises and real-world examples to help you turn knowledge into action.",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "Fundamentals of digital marketing",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/14rq9Ra9qC_Ulc_FvFOQr7LfJ4jtq0NOb/view?usp=share_link"
         }
       ]
     },
 
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   imageAlt: "PWA Logo",
+    //   footerLink: [
+    //     {name: "Certification", url: ""},
+    //     {
+    //       name: "Final Project",
+    //       url: "https://pakistan-olx-1.firebaseapp.com/"
+    //     }
+    //   ]
+    // }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Hobbies Section
+
+const hobbiesSection = {
+  title: emoji("Hobbies"),
+  subtitle:
+    "Hobbies is a Cool Stuff that I have done !",
+
+  hobbiesCards: [
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Hobbie 1",
+      subtitle:
+        "love to learn technical aspets of graph of index and stocks",
+      image: require("./assets/images/trading"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
+    // {
+    //   title: "Hobbie 2",
+    //   subtitle:
+    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+    //   image: require("./assets/images/googleAssistantLogo.webp"),
+    //   imageAlt: "Google Assistant Action Logo",
+    //   footerLink: [
+    //     {
+    //       name: "View Google Assistant Action",
+    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+    //     }
+    //   ]
+    // },
+
+    {
+      title: "cricket",
+      subtitle: "love to play cricket",
+      image: require("./assets/images/Cricket.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+      //   {name: "Certification", url: ""},
+      //   {
+      //     name: "Final Project",
+      //     url: "https://pakistan-olx-1.firebaseapp.com/"
+      //   }
       ]
     }
   ],
@@ -368,6 +428,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  hobbiesSection,
   blogSection,
   talkSection,
   podcastSection,
